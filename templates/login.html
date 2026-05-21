@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<link
+rel="stylesheet"
+href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>🔐 Secure File Vault</h1>
+
+<p class="subtitle">
+
+Login to access encrypted files
+
+</p>
+
+<form method="POST">
+
+<input
+name="username"
+placeholder="Username"
+required>
+
+<input
+type="password"
+name="password"
+placeholder="Password"
+required>
+
+<button>
+
+Login
+
+</button>
+
+</form>
+
+<br>
+
+<a href="/register">
+
+Create Account
+
+</a>
+
+</div>
+
+</body>
+
+</html>
